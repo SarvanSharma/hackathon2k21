@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Freak</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/styles1.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+
+
+    </div>
+    
+    <nav>
+      <ul>
+        <li class="logo">Fit <span class="freeee">Freak</span></li>
+        <li class="items"><a href="#">Home</a></li>
+        <li class="items"><a href="workout.html">Workout</a></li>
+        <li class="items"><a href="login.html">Login</a></li>
+        <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+        
+    </ul>
+    </nav>
+    <section class="container">
+        <div class="containerdiv">
+            <h1 class="content1">All progress takes place outside the <span class="freeee">comfort zone</span</h1>
+        </div>
+
+    </section>
+    <section class="emptysec"></section>
+    <div class="flex-container">
+        <div class="flex-item-left">
+            <p class="flextext">
+            Regular physical activity can improve your <span class="freeee">muscle strength</span> and boost your <span class="freeee">endurance</span>. Exercise delivers oxygen and nutrients to your tissues and helps your<span class="freeee"> cardiovascular system work more efficiently</span>.
+            </p>
+
+
+        </div>
+        <div class="flex-item-right"><img class="image" src="img/pexels-victor-freitas-841131.jpg" alt=""></div>
+    </div>
+    <section class="emptysec1"></section>
+    <seciton class="footer">
+        <p class="footertxt">© All rights reserved. Made with ❤ by CAS</p>
+    </seciton>
+
+
+    <script>
+      $(document).ready(function(){
+        $('.btn').click(function(){
+          $('.items').toggleClass("show");
+          $('ul li').toggleClass("hide");
+        });
+      });
+    </script>
+    <script src="js/burger.js"></script>
+</body>
+</html>
